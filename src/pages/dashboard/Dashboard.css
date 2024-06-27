@@ -1,0 +1,67 @@
+.dashboard{
+    /* backdrop-filter: blur(5px); */
+    min-height: calc(100vh - 34px);
+    flex-grow: 1;
+}
+
+.text-center{
+    margin-bottom: 40px;
+}
+/* .each-post{
+    max-height: 223px;
+    width: 50%;
+    text-align: left;
+    
+} */
+/* .dashboard{
+    background-image: url("/src/pages/images/940498-vertical-dark-blue-abstract-wallpaper-1920x1200-windows-10.jpg");
+    background-repeat: cover;
+} */
+
+.posts{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.eachpost{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 2px ; 
+    /* box-shadow: 5px 10px #504c4c; */
+    color: white;
+    border-radius: 10px ; 
+    
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    background-image: url(/src/pages/images/kala4.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.content{
+    margin: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+  
+}
+
+.articleName{
+    margin-bottom: 10px;
+    
+}
+
+.btn{
+    margin-left: 26px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: grey;
+}

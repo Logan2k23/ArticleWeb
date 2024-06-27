@@ -1,0 +1,25 @@
+.header{
+    display: block;
+    text-align: center;
+    color: black;
+}
+.read{
+    margin: 50px 69px 0px 69px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pre { 
+    white-space: pre-wrap;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 25px;
+}
+
+btn{
+    width: 244px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: 550px;
+}
